@@ -129,7 +129,7 @@ input[type=text]{
 
   .fourth-page {
 
-    background:linear-gradient(0deg, rgba(237,237,237, 0.8), rgba(101,196,250, 0.8)), url(/homework/bootstrap5/day2/bg-2.png);
+    background:linear-gradient(0deg, rgba(237,237,237, 0.8), rgba(101,196,250, 0.8)), url(bg-2.png);
     background-position: center;
   }
 
