@@ -10,10 +10,6 @@
 
   }
 
- .main-body{
-
- }
-
   .logo h3{
     color: rgb(101, 99, 99);
     font-size: 40px;
@@ -115,3 +111,39 @@ input[type=text]{
 
   }
 
+  .third-page .profile{
+    text-align: center;
+
+  }
+
+  .profile-pic {
+    font-size: 60px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+
+  #profile-subtitle {
+    font-size: 30px;
+
+  }
+
+  .fourth-page {
+
+    background:linear-gradient(0deg, rgba(237,237,237, 0.8), rgba(101,196,250, 0.8)), url(/homework/bootstrap5/day2/bg-2.png);
+    background-position: center;
+  }
+
+  .fourth-page .main-profile img {
+    border: solid 2px;
+
+  }
+
+  .footer {
+    background-color: rgb(254,254,254);
+
+  }
+
+  .footer p {
+    color: rgb(150,150,151);
+    text-align: center;
+  }
