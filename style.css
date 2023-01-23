@@ -1,0 +1,117 @@
+  * {
+    box-sizing: border-box;
+    
+  }
+  body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-color: rgba(101,196,250, 0.2);
+
+  }
+
+ .main-body{
+
+ }
+
+  .logo h3{
+    color: rgb(101, 99, 99);
+    font-size: 40px;
+    /* padding-left: 2%; */
+    /* background-color: rgb(255, 255, 255); */
+
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .sec-page-par , h1, h4, p {
+    color: white;
+  }
+  .sec-page {
+    min-height:100%;
+
+   /* background-image: url(/homework/bootstrap5/day2/bg.jpeg); */
+    /* background-color: rgba(101,196,250, 0.8); */
+    /* background: rgba(101,196,250, 0.8), url(/homework/bootstrap5/day2/bg.jpeg); */
+    background:linear-gradient(0deg, rgba(101,196,250, 0.8), rgba(101,196,250, 0.8)), url(/homework/bootstrap5/day2/bg.jpeg);
+    background-size: cover;
+
+  }
+
+  /* .input {
+  width: 100px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  resize: vertical;
+} */
+
+input[type=text]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    /* margin-bottom: 16px; */
+    resize: vertical;
+  }
+
+  .form {
+    background-color: rgba(42,165,247, 0.3);
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  h3 {
+    color: rgb(255, 255, 255);
+  }
+
+
+  .form p {
+    float: left;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 18px;
+  }
+
+  .form #headline-p {
+    font-size: 24px;
+    padding: 12px;
+
+  }
+
+  .form #p-form {
+    font-size: 8px;
+
+  }
+
+  input[type=submit] {
+    font-size: 30px;
+    background-color:rgb(255,165,54);
+    color: white;
+    padding: 12px 10px;
+    border: none;
+    margin-top: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+  .third-page {
+    min-width: 100%;
+
+  }
+
+  .third-page p{
+    color: black;
+
+  }
+
