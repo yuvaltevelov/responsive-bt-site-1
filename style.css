@@ -30,10 +30,10 @@
   .sec-page {
     min-height:100%;
 
-   /* background-image: url(/homework/bootstrap5/day2/bg.jpeg); */
+   /* background-image: url(bg.jpeg); */
     /* background-color: rgba(101,196,250, 0.8); */
-    /* background: rgba(101,196,250, 0.8), url(/homework/bootstrap5/day2/bg.jpeg); */
-    background:linear-gradient(0deg, rgba(101,196,250, 0.8), rgba(101,196,250, 0.8)), url(/homework/bootstrap5/day2/bg.jpeg);
+    /* background: rgba(101,196,250, 0.8), url(bg.jpeg); */
+    background:linear-gradient(0deg, rgba(101,196,250, 0.8), rgba(101,196,250, 0.8)), url(bg.jpeg);
     background-size: cover;
 
   }
