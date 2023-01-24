@@ -1,149 +1,226 @@
-  * {
+ * {
     box-sizing: border-box;
+     }
+    body{
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        background-color: rgba(101,196,250, 0.2);
+
+    }
+    .logo h3{
+        color: rgb(101, 99, 99);
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .sec-page-par , h1, h4, p {
+        color: white;
+    }
+    .sec-page-par h1 {
+        font-size: 32px;
+
+    }
+    .sec-page {
+        min-height:100%;
+
+    /* background-image: url(/homework/bootstrap5/day2/bg.jpeg); */
+        /* background-color: rgba(101,196,250, 0.8); */
+        /* background: rgba(101,196,250, 0.8), url(/homework/bootstrap5/day2/bg.jpeg); */
+        background:linear-gradient(0deg, rgba(112, 186, 229, 0.9), rgba(60, 118, 154, 0.8)), url(/homework/bootstrap5/day2/bg.jpeg);
+        background-size: cover;
+
+    }
+
+    .form {
+        box-shadow: 2px 6px 50px 10px  rgb(102, 118, 163);
+        background-color: rgba(57, 153, 218, 0.3);
+        text-align: center;
+        border-radius: 5px;
+        padding: 20px;
+    }
+
+    .form p {
+        color: white;
+        margin-bottom: 0;
+        margin-top: 18px;
+    }
+
+    .form .form-p {
+        float: left;
+
+    }
+
+
+    input[type=text]{
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        /* margin-bottom: 16px; */
+        resize: vertical;
+    }
+
+    .form #p-form {
+        font-size: 8px;
+        text-align: center;
+
+    }
+
+   
+
+    .form #headline-p h1{
+        font-size: 24px;
+        padding: 12px;
+
+    }
+    input[type=submit] {
+        font-size: 150%;
+        background-color:rgb(255,165,54);
+        color: white;
+        padding: 12px 10px;
+        border: none;
+        width: 100%;
+        margin-top: 18px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .btn {
+        display: none;
+
+    }
+
+
+    .third-page {
+        min-width: 100%;
+
+    }
+
+    .third-page p{
+        color: black;
+
+    }
+
+    .third-page .profile{
+        text-align: center;
+
+    }
+    .profile-pic {
+        font-size: 60px;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+
+    #profile-subtitle {
+        font-size: 30px;
+
+    }
+
+    .fourth-page {
+
+        background:linear-gradient(0deg, rgba(237,237,237, 0.8), rgba(101,196,250, 0.8)), url(/homework/bootstrap5/day2/bg-2.png);
+        background-position: center;
+    }
+
+    .fourth-page .main-profile img {
+        border: solid 2px;
+
+    }
+
+    .footer {
+        background-color: rgb(254,254,254);
+
+    }
+
+    .footer p {
+        color: rgb(150,150,151);
+        text-align: center;
+    }
+
+@media screen and (min-width: 600px){
     
-  }
-  body{
-    padding: 0;
-    margin: 0;
-    height: 100%;
-    background-color: rgba(101,196,250, 0.2);
 
-  }
-
-  .logo h3{
-    color: rgb(101, 99, 99);
-    font-size: 40px;
-    /* padding-left: 2%; */
-    /* background-color: rgb(255, 255, 255); */
-
-  }
-
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-  .sec-page-par , h1, h4, p {
-    color: white;
-  }
-  .sec-page {
-    min-height:100%;
-
-   /* background-image: url(bg.jpeg); */
-    /* background-color: rgba(101,196,250, 0.8); */
-    /* background: rgba(101,196,250, 0.8), url(bg.jpeg); */
-    background:linear-gradient(0deg, rgba(101,196,250, 0.8), rgba(101,196,250, 0.8)), url(bg.jpeg);
-    background-size: cover;
-
-  }
-
-  /* .input {
-  width: 100px;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  resize: vertical;
-} */
-
-input[type=text]{
-    width: 100%;
+    
+    
+    /* .input {
+    width: 100px;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
-    /* margin-bottom: 16px; */
     resize: vertical;
-  }
-
-  .form {
-    background-color: rgba(42,165,247, 0.3);
-    text-align: center;
-    border-radius: 5px;
-    padding: 20px;
-  }
-
-  h3 {
-    color: rgb(255, 255, 255);
-  }
+    } */
 
 
-  .form p {
-    float: left;
-    color: white;
-    margin-bottom: 0;
-    margin-top: 18px;
-  }
 
-  .form #headline-p {
-    font-size: 24px;
-    padding: 12px;
+    
 
-  }
+    h3 {
+        color: rgb(255, 255, 255);
+    }
 
-  .form #p-form {
-    font-size: 8px;
+    
+    .btn[type=submit] {
+        display: none;
+      }
+    
 
-  }
-
-  input[type=submit] {
-    font-size: 30px;
-    background-color:rgb(255,165,54);
-    color: white;
-    padding: 12px 10px;
-    border: none;
-    margin-top: 18px;
-    border-radius: 4px;
-    cursor: pointer;
-  }
+   
+    /* @media screen and (min-width: 600;){
+        .sec-page-par #desktop-h1 {
+            display: none;
+        } */
+        .sec-page-par #mobile-h1 {
+            display: none;
+        }
+}
 
 
-  .third-page {
-    min-width: 100%;
+  @media screen and (max-width: 599px){
+    .logo {
+        text-align: center;
+    }
 
-  }
+    .btn[type=submit] {
+        display: block;
+        font-size: 30px;
+        background-color:rgb(255,165,54);
+        color: white;
+        padding: 12px 10px;
+        width: 100%;
+        border: none;
+        margin-top: 18px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
 
-  .third-page p{
-    color: black;
+    .sec-page-par h1, h4, p, .btn {
+        text-align: center;
 
-  }
+    }
 
-  .third-page .profile{
-    text-align: center;
+     #desktop-h1, #desktop-h4 {
+        display: none;
+    }
+    .sec-page-par #mobile-h1 {
+        display:block;
+        font-size: 40px;
+        font-weight:300;
+    }
 
-  }
+    /* input[type=submit] {
+        display: none;
+      } */
 
-  .profile-pic {
-    font-size: 60px;
-    margin-top: 25px;
-    margin-bottom: 15px;
-  }
 
-  #profile-subtitle {
-    font-size: 30px;
-
-  }
-
-  .fourth-page {
-
-    background:linear-gradient(0deg, rgba(237,237,237, 0.8), rgba(101,196,250, 0.8)), url(bg-2.png);
-    background-position: center;
-  }
-
-  .fourth-page .main-profile img {
-    border: solid 2px;
-
-  }
-
-  .footer {
-    background-color: rgb(254,254,254);
-
-  }
-
-  .footer p {
-    color: rgb(150,150,151);
-    text-align: center;
   }

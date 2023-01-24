@@ -14,7 +14,7 @@
 
 <body>
     <div class="main-body">
-            <div class="container-fluid logo d-block text-bg-light ml-50 mr-0 w-100">
+            <div class="container-fluid logo p-3 d-block text-bg-light ml-50 mr-0 w-100">
                 <h3> Your <strong>Logo</strong></h3>
             </div>
 
@@ -22,8 +22,16 @@
         <div class="container-fluid sec-page mt-0 p-5 d-flex justify-content-between">
             <div class="row">
                 <div class="col-md-8 sec-page-par">
-                    <h1>Write Your Main Headline Here</h1>
-                    <h4>Your intriguing call to action goes here...</h4>
+                    <h1 id="desktop-h1">Write Your Main Headline Here</h1>
+                    <h1 id="mobile-h1">Write Here Your Main Headline</h1>
+                    <!-- <input type="submit" value="Call Now"> -->
+                    <h4 id="mobile-h4">Your intriguing call to action goes here...</h4>
+                    <button class="btn mb-4 mt-3" type="submit" value="Call Now">
+                        <i class="fa-solid fa-phone"></i>
+                        Call Now
+                    </button>
+                    <i class="hr-under-call"><hr></i>
+                    <!-- <h4 id="desktop-h4">Your intriguing call to action goes here...</h4> -->
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ipsa fuga dolores atque aperiam nam
                         molestiae iure porro. Accusamus reiciendis temporibus amet repudiandae voluptate ipsa incidunt
                         commodi voluptatibus perspiciatis illo!
@@ -41,20 +49,20 @@
                 </div>
                 <div class="col-md-4 form">
                     <form action="">
-                        <p id="headline-p"> Let us hear from you </p>
+                        <h1 id="headline-p"> Let us hear from you </h1>
                         
-                            <p for="fname">First Name</p>
+                            <p class="form-p" for="fname">First Name</p>
                             <input type="text" id="fname" name="firstname" placeholder="Your name..">
             
-                            <p for="lname">Last Name</p>
+                            <p class="form-p" for="lname">Last Name</p>
                             <input type="text" id="lname" name="lastname" placeholder="Your last name..">
             
-                            <p for="email">Email Address</p>
+                            <p class="form-p" for="email">Email Address</p>
                             <input type="text" id="email" name="emailaddress" placeholder="Your Email Adress..">
             
             
                             <input type="submit" value="GET FREE QUOTE">
-                            <p id="p-form">Your privacy is paramount - we will not share your informations
+                            <p style="font-size: 8px;">Your privacy is paramount - we will not share your informations
                             </p>
                     </form>
                 </div>
@@ -88,7 +96,7 @@
             <div class="row">
                 <div class="col-12 col-md-2"></div>
                 <div class="col-12 col-md-8 main-profile text-center">
-                    <img src="profile-pic.jpg" width="150px" height="125px" class="rounded-circle mb-4 mt-5" alt="">
+                    <img src="/homework/bootstrap5/day2/profile-pic.jpg" width="150px" height="125px" class="rounded-circle mb-4 mt-5" alt="">
                     <p>Have a devoted customer whose story could be shared with visitors? Boost your<br> conversions with an authentic testimonial! You'll persuade prospects just how<br> much your customers value your product or service.</p>
                     <p> <hr> john Deo <br>CEO, Company Name</p>
                 </div>
