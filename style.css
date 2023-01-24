@@ -33,7 +33,7 @@
     /* background-image: url(/homework/bootstrap5/day2/bg.jpeg); */
         /* background-color: rgba(101,196,250, 0.8); */
         /* background: rgba(101,196,250, 0.8), url(/homework/bootstrap5/day2/bg.jpeg); */
-        background:linear-gradient(0deg, rgba(112, 186, 229, 0.9), rgba(60, 118, 154, 0.8)), url(/homework/bootstrap5/day2/bg.jpeg);
+        background:linear-gradient(0deg, rgba(112, 186, 229, 0.9), rgba(60, 118, 154, 0.8)), url(bg.jpeg);
         background-size: cover;
 
     }
@@ -127,7 +127,7 @@
 
     .fourth-page {
 
-        background:linear-gradient(0deg, rgba(237,237,237, 0.8), rgba(101,196,250, 0.8)), url(/homework/bootstrap5/day2/bg-2.png);
+        background:linear-gradient(0deg, rgba(237,237,237, 0.8), rgba(101,196,250, 0.8)), url(bg-2.png);
         background-position: center;
     }
 
